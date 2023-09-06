@@ -2,6 +2,7 @@ import * as React from 'react'
 import { Scene, Storyboard } from 'utopia-api'
 import { App } from '/src/app.js'
 import { Playground } from '/src/playground.js'
+import uuid from 'react-uuid'
 
 export var storyboard = (
   <Storyboard data-uid='0cd'>
@@ -32,5 +33,18 @@ export var storyboard = (
     >
       <App style={{}} data-uid='b91' />
     </Scene>
+    <div
+      style={{
+        backgroundColor: '#aaaaaa33',
+        position: 'absolute',
+        left: 509,
+        top: 35,
+        width: 'max-content',
+        height: 'max-content',
+      }}
+      data-uid='05f'
+    >
+      {uuid()}
+    </div>
   </Storyboard>
 )
