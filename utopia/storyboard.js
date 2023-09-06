@@ -12,7 +12,7 @@ export var storyboard = (
         position: 'absolute',
         left: 151,
         top: 144,
-        borderRadius: 41,
+        borderRadius: '52px',
       }}
       data-label='Playground'
       data-uid='b58'
