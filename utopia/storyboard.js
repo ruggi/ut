@@ -4,18 +4,19 @@ import { App } from '/src/app.js'
 import { Playground } from '/src/playground.js'
 
 export var storyboard = (
-  <Storyboard>
+  <Storyboard data-uid='0cd'>
     <Scene
       style={{
         width: 700,
         height: 759,
         position: 'absolute',
-        left: 212,
-        top: 128,
+        left: 119,
+        top: 76,
       }}
       data-label='Playground'
+      data-uid='b58'
     >
-      <Playground style={{}} />
+      <Playground style={{}} data-uid='ab5' />
     </Scene>
     <Scene
       style={{
@@ -26,8 +27,9 @@ export var storyboard = (
         top: 128,
       }}
       data-label='My App'
+      data-uid='81d'
     >
-      <App style={{}} />
+      <App style={{}} data-uid='b91' />
     </Scene>
   </Storyboard>
 )
